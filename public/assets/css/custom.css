@@ -1,0 +1,14 @@
+.menu-item .menu-link {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    flex: 0 0 100%;
+    padding: .20rem 1rem;
+    transition: none;
+    outline: 0 !important;
+}
+
+body.swal2-shown > [aria-hidden='true'] {
+    transition: 0.1s filter;
+    filter: blur(3px);
+}
